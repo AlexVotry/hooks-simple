@@ -16,10 +16,6 @@ class ResourceList extends React.Component {
     }
   }
 
-  componentWillUnmount() {
-
-  }
-
   render() {
     return (
       <div>{this.state.resources.length}</div>
